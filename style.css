@@ -26,3 +26,67 @@
     display: flex;
     gap: 22px;
 }
+
+.headerSection{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+
+}
+
+.RHeaderSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #b4b4b475;
+    height: 250px;   
+}
+
+
+.RHeaderSection > p{
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.LHeaderSection > h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.LHeaderSection > p{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+#headerButton{
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 0;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.RHeaderSection,
+.LHeaderSection{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 100px;
+
+}
+
+.LHeaderSection{
+    margin-right: 0px;
+}
