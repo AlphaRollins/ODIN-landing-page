@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+.heroHeader{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 8px;
+    align-items: center;
+}
+.header-logo {
+    font-size: 24px;
+
+}
+
+.headerLinks > a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.headerLinks{
+    display: flex;
+    gap: 22px;
+}
