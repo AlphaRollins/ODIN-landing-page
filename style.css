@@ -38,9 +38,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
     background-color: #b4b4b475;
-    height: 250px;   
+    margin: 150px;
+    margin-left: 20px;
+}
+
+.LHeaderSection{
+    justify-content: center;
+    margin-left: 150px;
 }
 
 
@@ -78,15 +83,14 @@
     margin-left: 5px;
 }
 
+
+
+
 .RHeaderSection,
 .LHeaderSection{
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 100px;
-
-}
-
-.LHeaderSection{
-    margin-right: 0px;
+    height: 200px;
+    width: auto;
 }
