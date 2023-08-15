@@ -131,3 +131,21 @@
 .sectionOne{
     padding-bottom: 20px;
 }
+
+.sectionTwo{
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.sectionTwo > p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.sectionTwo > h4 {
+    text-align: end;
+    margin-right: 100px;
+    font-size: 24px;
+}
