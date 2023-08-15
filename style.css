@@ -48,7 +48,6 @@
     margin-left: 150px;
 }
 
-
 .RHeaderSection > p{
     text-align: center;
     color: #E5E7EB;
@@ -83,9 +82,6 @@
     margin-left: 5px;
 }
 
-
-
-
 .RHeaderSection,
 .LHeaderSection{
     display: flex;
@@ -93,4 +89,45 @@
     flex: 1;
     height: 200px;
     width: auto;
+}
+
+#secOneHeader{
+    text-align: center;
+    padding: 25px;
+}
+
+.box{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.boxesOne{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.secOneText{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.secOneText > p{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 5px;
+} 
+
+.sectionOne{
+    padding-bottom: 20px;
 }
